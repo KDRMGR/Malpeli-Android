@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1023195008399",
+    "project_id": "malpeli-d6d4a",
+    "storage_bucket": "malpeli-d6d4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023195008399:android:645231293bb519e4d94ffa",
+        "android_client_info": {
+          "package_name": "com.malpelii.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJtswzwnzHMRcenvpbXH11DDfrMs_KnFw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
