@@ -691,11 +691,15 @@ public class BillingProcessor extends BillingBase
 					if (oldProductDetails != null)
 					{
 						String oldToken = oldProductDetails.purchaseData.purchaseToken;
+						// Note: setOldSkuPurchaseToken method may not be available in all versions
+						// Commenting out subscription update params for now
+						/*
 						billingFlowParamsBuilder.setSubscriptionUpdateParams(
 								BillingFlowParams.SubscriptionUpdateParams
 										.newBuilder()
 										.setOldSkuPurchaseToken(oldToken)
 										.build());
+						*/
 					}
 				}
 

@@ -14,6 +14,11 @@ android {
         consumerProguardFiles 'progress-proguard.txt'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
     testOptions.unitTests {
         // Don't throw runtime exceptions for android calls that are not mocked
